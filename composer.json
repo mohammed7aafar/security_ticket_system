@@ -1,0 +1,55 @@
+{
+
+  "name": "Ammen",
+  "type": "security",
+  "license": "Ammen",
+  "description": "for Cyber security  & social Enginnering management ",
+  "authors": [
+    {
+      "name": "Mohammed_7aafar",
+      "email": "jaafarjoda3@gmail.com"
+    }
+  ],
+
+    "require": {
+    "barryvdh/laravel-ide-helper": "^2.6",
+    "ezyang/htmlpurifier": "^4.12",
+    "illuminate/database": "^5.8",
+    "lcobucci/jwt": "^3.3",
+    "php-di/php-di": "^6.0",
+    "ramsey/uuid": "^3.9",
+    "selective/basepath": "^0.2.0",
+    "selective/config": "^0.1.1",
+    "slim/http": "^0.8.0",
+    "slim/psr7": "^0.6.0",
+    "slim/slim": "4.*",
+    "sonata-project/google-authenticator": "^2.2",
+    "tuupola/cors-middleware": "^1.1"
+  },
+    "require-dev": {
+        "laracasts/generators": "^1.1",
+        "phpunit/phpunit": "^7.5"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/",
+            "App2\\": "vendor/"
+        }
+        
+
+        
+       
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Test\\": "tests"
+        }
+       
+    },
+    "config": {
+        "process-timeout": 0,
+        "sort-packages": true
+    }
+
+}
